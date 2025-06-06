@@ -1,12 +1,12 @@
-import { useState } from 'react'
 import './App.css'
 import ResponsiveContainer from './Components/ResponsiveContainer'
+import BoardContainer from './Components/Board/Container'
 
 function App() {
   return (
     <>
       <ResponsiveContainer>
-        <h1>Vite + React</h1>
+        <BoardContainer/>
       </ResponsiveContainer>
     </>
   )
