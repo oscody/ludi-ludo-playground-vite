@@ -1,4 +1,6 @@
-import React, { useState, useEffect, ReactNode } from "react";
+import { useState, useEffect } from "react";
+import type { ReactNode } from "react";
+
 import "./ResponsiveContainer.css";
 
 interface ResponsiveContainerProps {
@@ -21,9 +23,7 @@ const getScreenType = (width: number): ScreenType => {
   return "desktop";
 };
 
-const ResponsiveContainer: React.FC<ResponsiveContainerProps> = ({
-  children,
-}) => {
+const ResponsiveContainer = ({ children }: ResponsiveContainerProps) => {
   const [screenSize, setScreenSize] = useState<ScreenSize>({
     width: window.innerWidth,
     height: window.innerHeight,

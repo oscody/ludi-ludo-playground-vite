@@ -1,12 +1,12 @@
 import './App.css'
 import ResponsiveContainer from './Components/ResponsiveContainer'
-import BoardContainer from './Components/Board/Container'
+import LUDIContainer from './Components/Board/LUDIContainer'
 
 function App() {
   return (
     <>
       <ResponsiveContainer>
-        <BoardContainer/>
+        <LUDIContainer/>
       </ResponsiveContainer>
     </>
   )
