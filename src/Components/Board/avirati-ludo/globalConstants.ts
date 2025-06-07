@@ -14,3 +14,7 @@ export const BASE_COLORS = {
   [BaseColors.BLUE]: '#17669F',
   [BaseColors.YELLOW]: '#E3DE3B',
 };
+
+export const WALKWAY_LENGTH = 6; // Cells
+export const WALKWAY_WIDTH = 3;  // Cells
+export const HOME_SIZE = 3;      // Cells

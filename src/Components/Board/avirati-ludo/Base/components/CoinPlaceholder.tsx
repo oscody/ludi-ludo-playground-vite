@@ -14,11 +14,11 @@ export const CoinPlaceholder = ({
 }: ICoinPlaceholderProps) => (
   <div
     className={styles.Container}
-    style={getStyleObject(COIN_PLACEHOLDER_SIZE, cellSize)}
+    style={getStyleObject(COIN_PLACEHOLDER_SIZE, COIN_PLACEHOLDER_SIZE, cellSize)}
   >
     <div
       className={styles.Circle}
-      style={getStyleObject(COIN_SIZE, cellSize, baseColor)}
+      style={getStyleObject(COIN_SIZE, COIN_SIZE, cellSize, baseColor)}
     />
   </div>
 );
